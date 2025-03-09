@@ -50,6 +50,7 @@
 
     .cFooterR{
       width: 60%;
+      height: 100%;
       display: flex;
       color: white;
       text-align: left;
