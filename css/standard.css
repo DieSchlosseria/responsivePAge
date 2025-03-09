@@ -1,7 +1,7 @@
 
 html {
   width: 100%;
-  min-width: 500px;
+  min-width: 600px;
   min-height: 100%;
   margin: 0 0 0 0;
   font-family: 'Rubik', sans-serif; 
@@ -12,7 +12,7 @@ html {
 
 body{
 width: 100%;
-min-width: 500px;
+min-width: 600px;
 min-height: 100vh;
 margin: 0 0 0 0;
 font-family: 'Rubik', sans-serif; 
@@ -22,7 +22,7 @@ display: flex;
 
 .cBody{
   width: 100%;
-  min-width: 500px;
+  min-width: 600px;
   position: absolute;
   background: url("../images/backrounds/backround5.jpg") center/cover no-repeat;
   background-repeat: repeat-y; /* Verhindert Wiederholung des Bildes */
@@ -36,7 +36,7 @@ display: flex;
 
 header {
   width: 100%;
-  min-width: 500px;
+  min-width: 600px;
   left: 0px;
   top: 0px;
   height: 100%;
@@ -57,7 +57,7 @@ footer{
   margin-top: 150px;
   height: 380px;
   color: white;
-  min-width: 500px;
+  min-width: 600px;
   background-color: #555555;
 }
 
