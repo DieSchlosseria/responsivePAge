@@ -20,6 +20,7 @@
     text-align: left;
     justify-content: center; /* Zentriert horizontal */
     align-items: center; /* Zentriert vertikal */    
+    margin: 5px 5px 5px 5px;
 }
 
    .cFooter1{
@@ -59,6 +60,7 @@
       align-items: center; /* Zentriert die Container vertikal */
       padding-top: 20px;
       gap: 30px;
+      background-color: #555555;
    
     }
 
