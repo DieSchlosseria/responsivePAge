@@ -1,5 +1,6 @@
 .cFrame {
     width: auto;
+    min-width: 600px;
     position: relative;
     top: 20px;
     left: calc(50%) ; /* Schiebt es um 25px nach rechts */
@@ -336,6 +337,7 @@ position: absolute;
       display: flex;
       justify-content: space-between; /* Links, Mitte und rechts werden verteilt */
       gap: 5px; /* Mindestens 10px, maximal 40px */
+      min-width: 600px;
     }
   
   }

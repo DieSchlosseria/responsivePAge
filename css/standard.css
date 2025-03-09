@@ -8,6 +8,7 @@ html {
   display: flex;
   flex-direction: column;
   background-color: gray;
+  overflow-x: hidden;
 }
 
 body{
@@ -19,14 +20,10 @@ font-family: 'Rubik', sans-serif;
 flex-direction: column;
 display: flex;
 flex-wrap: wrap;
+left: 0px;
+overflow-x: hidden;
 }
 
-@media (max-width: 600px) {
-  body {
-    width: 100%;
-    overflow-x: hidden;
-  }
-}
 
 .cBody{
   width: 100%;
@@ -41,6 +38,7 @@ flex-wrap: wrap;
   min-height: 1150px;
   z-index: -3; /* Niedrigerer Wert als das andere Element */
   flex-wrap: wrap;
+  overflow-x: hidden;
 }
 
 header {
