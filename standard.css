@@ -41,6 +41,8 @@ overflow-x: hidden;
   z-index: -3; /* Niedrigerer Wert als das andere Element */
   flex-wrap: wrap;
   overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
