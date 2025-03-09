@@ -16,6 +16,7 @@
     height: 100%;
     color: black;
     display: flex;
+    flex-wrap: wrap;
     background-color: white;
     text-align: left;
     justify-content: center; /* Zentriert horizontal */
@@ -30,6 +31,7 @@
     text-align: left;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin: 5px 5px 5px 5px;
     padding: 5px 5px 5px 5px;
     }

@@ -18,6 +18,14 @@ margin: 0 0 0 0;
 font-family: 'Rubik', sans-serif; 
 flex-direction: column;
 display: flex;
+flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
 }
 
 .cBody{
@@ -32,6 +40,7 @@ display: flex;
   top: 100px;
   min-height: 1150px;
   z-index: -3; /* Niedrigerer Wert als das andere Element */
+  flex-wrap: wrap;
 }
 
 header {
@@ -60,6 +69,7 @@ footer{
   color: white;
   min-width: 600px;
   background-color: #555555;
+  flex-wrap: wrap;
 }
 
 
