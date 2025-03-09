@@ -19,6 +19,14 @@ font-family: 'Rubik', sans-serif;
 flex-direction: column;
 display: flex;
 flex-wrap: wrap;
+left: 0px;
+}
+
+@media (max-width: 600px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
 }
 
 .cBody{
