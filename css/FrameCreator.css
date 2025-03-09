@@ -335,13 +335,15 @@ position: absolute;
       align-items: center; /* Zentriert die Elemente */
       display: flex;
       justify-content: space-between; /* Links, Mitte und rechts werden verteilt */
+      gap: 5px; /* Mindestens 10px, maximal 40px */
     }
   
   }
   
-  @media (max-width: 600px) {
+ /* @media (max-width: 600px) {
     .cFrame {
       left: 300px;
     }
   
   }
+*/
