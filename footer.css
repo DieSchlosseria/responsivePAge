@@ -25,6 +25,8 @@
 }
 
    .cFooter1{
+    display: flex;
+    flex-wrap: wrap;
     color: black;
     position: absolute;
     text-align: left;
