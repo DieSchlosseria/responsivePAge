@@ -57,7 +57,7 @@
       <span class = "cStepNo">1.</span>
       <span class="cStepText">Klicke auf die zu erstellende Linien: </span>
     </span>
-      <svg xmlns="http://www.w3.org/2000/svg" width="550" height="650" viewBox="0 0 550 650">
+      <svg xmlns="http://www.w3.org/2000/svg" id="iSVG">
            <!-- Zeichne den Metallgestell mit Linien -->
           <!--Vorderseite-->
           <line class="cCube-line" id="iFrontTop" x1="50" y1="50" x2="275" y2="50" />
@@ -105,8 +105,8 @@
     <label for="iPerspective">Ansicht</label>
     <input class="cInputView" type="range" min="25" max="60" id="iPerspective" style="width: 100%;">
   </div>  
-  <button class="cAddBoard" id="iAddBoard" >Holzplatte hinzufügen</button>
-  <button class="cDisplayLine" id="iDisplayLine" >Hilfslinien ausblenden</button>
+    <button class="cAddBoard" id="iAddBoard" >Holzplatte hinzufügen</button>
+    <button class="cDisplayLine" id="iDisplayLine" >Hilfslinien ausblenden</button>
   <img src="images/trash.png" class="cTrash" id="iTrash" alt="Warenkorb">
   </div>
   
@@ -187,7 +187,7 @@
   </div>
     <!-- Button der in der Nähe der Linien angezeigt wird -->
   <button id="iHoverButton" class="cCube-button cRed-button">  Add  </button>
-  
+
 
 
 
