@@ -1,6 +1,6 @@
 .cFrame {
     width: auto;
-    min-width: 600px;
+/*    min-width: 600px;   */
     position: relative;
     top: 20px;
     left: calc(50%) ; /* Schiebt es um 25px nach rechts */
@@ -11,7 +11,6 @@
     flex: 1;
     padding: 0 20px; 
     justify-content: center;
-
   }
 
   .cInputField{
@@ -36,8 +35,8 @@
   }
   
   .cHoover{
-  width: 560px;
-  height: 660px;
+  width: 350px;
+  height: 650px;
   position: relative;
   background-color: teal;
   border-color: black;
@@ -135,16 +134,16 @@
           .cDisplayLine {
             top: 560px;
             left: 330px;
-            position: absolute;
-            min-width: 210px;
+     /*       position: absolute;
+            min-width: 210px;       */
             font-size: 16px;
           }
   
   .cAddBoard{
     top: 601px;
     left: 330px;
-    position: absolute;
-    min-width: 210px;
+ /*   position: absolute;
+ /*   min-width: 210px; */
     font-size: 16px;
   }
   
@@ -337,15 +336,7 @@ position: absolute;
       display: flex;
       justify-content: space-between; /* Links, Mitte und rechts werden verteilt */
       gap: 5px; /* Mindestens 10px, maximal 40px */
-      min-width: 600px;
+/*      min-width: 600px;     */
     }
   
   }
-  
- /* @media (max-width: 600px) {
-    .cFrame {
-      left: 300px;
-    }
-  
-  }
-*/

@@ -2,7 +2,7 @@
   .cHead {
   width: 100%;
   position: relative; 
-  min-width: 500px;
+  min-width: 375px;
   height: 142px;
   background-color: #F5F5F5;
   display: flex;

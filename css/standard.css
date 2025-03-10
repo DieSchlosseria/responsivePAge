@@ -1,33 +1,32 @@
 
 html {
   width: 100%;
-  min-width: 600px;
+/*  min-width: 600px;       */
   min-height: 100%;
   margin: 0 0 0 0;
   font-family: 'Rubik', sans-serif; 
   display: flex;
   flex-direction: column;
   background-color: gray;
-  overflow-x: hidden;
 }
 
 body{
 width: 100%;
-min-width: 600px;
-min-height: 100vh;
+/*  min-width: 600px;       */
+min-height: 100%;
 margin: 0 0 0 0;
 font-family: 'Rubik', sans-serif; 
 flex-direction: column;
 display: flex;
 flex-wrap: wrap;
 left: 0px;
-overflow-x: hidden;
+
 }
 
 
 .cBody{
   width: 100%;
-  min-width: 600px;
+/*  min-width: 600px;       */
   position: absolute;
   background: url("../images/backrounds/backround5.jpg") center/cover no-repeat;
   background-repeat: repeat-y; /* Verhindert Wiederholung des Bildes */
@@ -42,7 +41,7 @@ overflow-x: hidden;
 
 header {
   width: 100%;
-  min-width: 600px;
+/*  min-width: 600px;       */
   left: 0px;
   top: 0px;
   height: 100%;
@@ -54,7 +53,7 @@ header {
 
 footer{
   position: relative;
-  min-width: 600px;
+/*  min-width: 600px;       */
   width: 100%;
   background-color: #000000;
   font-family: 'Rubik', sans-serif;
@@ -64,7 +63,7 @@ footer{
   margin-top: 150px;
   height: 380px;
   color: white;
-  min-width: 600px;
+/*  min-width: 600px;       */
   background-color: #555555;
   flex-wrap: wrap;
 }
