@@ -28,9 +28,12 @@ const lines = [
 ];
 
 //SVG Parameter
-const WindowWidth = 550;
+const WindowWidth = 350;
 const WindowHeight = 650;
-const scaleFactor = 1.2;
+const scaleFactor = 1.0;
+
+  //SVG Viewbox
+  document.getElementById("iSVG").setAttribute("viewBox", "0 0 350 650");
 
   // Erstelle das Polygon mit Holztextur
   const blade = document.getElementById("polygonGroup");
